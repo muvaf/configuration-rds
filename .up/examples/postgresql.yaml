@@ -2,6 +2,7 @@ apiVersion: database.starter.org/v1alpha1
 kind: PostgreSQLInstance
 metadata:
   name: my-db
+  namespace: default
 spec:
   parameters:
     region: east
